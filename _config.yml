@@ -3,11 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: ZhuXiwen's Blog
 description:
-author: John Doe
-language:
+author: ZhuXiwen
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,9 +62,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:gy1zhuxiwen/gy1zhuxiwen.github.io.git
+  branch: master
